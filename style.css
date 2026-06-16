@@ -47,3 +47,22 @@ h2{
     transition: 0.3s;
 
 }
+#skills{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skill{
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.skill:hover{
+    transform: scale(1.1);
+}
